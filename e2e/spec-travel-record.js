@@ -85,7 +85,7 @@ describe('Protractor Demo App', function() {
      await browser.wait(EC.visibilityOf(element(by.tagName('app-travel-record-detail-card'))),10000);
      console.log('選擇成功')
 
-     console.log('點擊返回主頁面');
+     console.log('返回主頁面');
      element(by.className('mat-ripple record-detail-btn')).click(); //回到主頁
    });
 

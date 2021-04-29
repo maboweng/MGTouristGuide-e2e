@@ -146,7 +146,7 @@ else
     await browser.wait(EC.visibilityOf(element(by.className('close-detect-btn ng-tns-c33-0'))),20000);
     element(by.className('close-detect-btn ng-tns-c33-0')).click();
     browser.sleep(3000)
-    console.log('檢測結束')
+    console.log('檢測以結束')
   });
 
 });
