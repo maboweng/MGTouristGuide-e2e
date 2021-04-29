@@ -115,7 +115,7 @@ describe('Protractor Demo App', function() {
     browser.close;
     }
 
-    console.log('返回主畫面')
+    console.log('點擊返回主畫面')
     element(by.className('back-btn')).click();
     browser.sleep(10000);
   });

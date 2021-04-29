@@ -13,7 +13,7 @@ exports.config = {
   jasmineNodeOpts: {
     showColors: true,
     includeStackTrace: true,
-    defaultTimeoutInterval: 600000,     //延長TimeOut的時間
+    defaultTimeoutInterval: 2000000,     //延長TimeOut的時間
     print: function() {}
   },
   };

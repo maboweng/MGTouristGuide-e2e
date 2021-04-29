@@ -117,7 +117,7 @@ describe('Protractor Demo App', function() {
     console.log('等待影片結束')
     browser.sleep(300000);
 
-    console.log('影片結束')
+    console.log('影片撥放結束')
     element(by.className('video-play-btn ng-star-inserted')).click();
     browser.sleep(10000);
    });
